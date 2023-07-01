@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  margin: 0 0 auto;
+}
+.header{
+  background-color: #1f2937;
+  padding: 1em 13em;
+}
+#logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header-top ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5em;
+}
+.secondary,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 0 0 auto;
+}
+/* Content*/
+.content {
+  padding: 7em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.content .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content .right {
+  flex-shrink: 0;
+  width: 50%;
+}
+
+.hero {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+button {
+  padding: 7px 1em;
+  width: 120px;
+  background-color: #3882F6;
+  border-radius: 8px;
+}
+
+.content button {
+  border: none;
+}
+
+img  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+}
+
+/*Random Information */
+
+.title {
+  margin-top: 36px;
+  padding-bottom: 32px;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  gap: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items:baseline;
+  gap: 100px;
+  flex-wrap: wrap;
+} 
+
+.item{
+  display: flex;
+  flex-direction: column;
+  color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 150px;
+  margin-bottom: 42px;
+  
+}
+.box{
+  border-radius: 10px;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 10px;
+  border: 4px solid #3882F6;
+  width: 150px;
+  height: 150px;
+}
+/*Quotes */
+
+.container-quote{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4em 13em;
+  background-color: #E5E7EB;
+}
+.quote p{
+  display: flex;
+  color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  text-align:start;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 36px;
+  
+}
+.Thor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Call to action*/
+.call-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 13em;
+}
+
+.container-call {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 3em;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container-call button {
+  border: 2px solid #FFF;
+}
+
+b {
+  font-size: 24px;
+  color: #FFF;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    color: #E5E7EB;
+    height: 100px;
+    background: #1F2937;
+}
